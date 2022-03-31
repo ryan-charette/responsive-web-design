@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <link rel="stylesheet" href="build-a-survey-form.css">
+</head>
+
+<grid class="container">
+    <h1 id="title">Survey Title</h1>
+    <p id="description">Survey Description</p>
+    <form id="survey-form">
+        <label id="name-label" for="name">name</label>
+        <input id="name" type="text" placeholder="enter name" required />
+        <label id="email-label" for="email">email</label>
+        <input id="email" type="email" placeholder="enter email" required />
+        <label id="number-label" for="number">number</label>
+        <input id="number" type="number" placeholder="enter number" min="1" max="99" />
+        <select id="dropdown">
+            <option>a</option>
+            <option>b</option>
+        </select>
+        <select id="radios">
+            <input name="radio-buttons" value="red" type="radio" />
+            <input name="radio-buttons" value="blue" type="radio" />
+        </select>
+        <select id="checks">
+            <input name="checkboxes" value="this one" type="checkbox" />
+            <input name="checkboxes" value="that one" type="checkbox" />
+        </select>
+        <textarea></textarea>
+        <button type="submit" id="submit">
+    </form>
+</grid>
+
+</html>
