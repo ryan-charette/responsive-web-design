@@ -1,4 +1,27 @@
+body {
+    font-family: Garamond, serif;
+    margin: 0;
+}
+
 .container {
-    grid-template-columns: 100%;
-    grid-template-rows: 25% 25% 25% 25%;
+    background: hsl(0, 0%, 90%);
+    margin-left: 15%;
+    margin-right: 15%;
+}
+
+.text-center {
+    text-align: center;
+}
+
+label {
+    display: flex;
+    font-size: 120%;
+    margin-bottom: 1%;
+}
+
+input,
+button,
+select,
+textarea {
+    margin-bottom: 2.5%;
 }
