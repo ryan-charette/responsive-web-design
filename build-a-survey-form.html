@@ -6,40 +6,81 @@
 </head>
 
 <body>
+    <div class="bg-graphic"></div>
     <div class="container">
         <header class="header">
-            <h1 id="title" class="text-center">Customer Feedback Survey</h1>
-            <p id="description" class="text-center">We welcome your feedback</p>
+            <h1 id="title">Customer Feedback Survey</h1>
+            <p id="description">We appreciate you taking the time to fill out this survey. Your feedback will be used to
+                improve our services.</p>
+            <hr>
         </header>
         <form id="survey-form">
             <div class="form-group">
                 <label id="name-label" for="name">Name</label>
-                <input id="name" type="text" placeholder="enter name" class="form-control" required />
+                <input id="name" type="text" placeholder="First Last" class="form-entry" required />
             </div>
             <div class="form-group">
                 <label id="email-label" for="email">Email</label>
-                <input id="email" type="email" placeholder="enter email" class="form-control" required />
+                <input id="email" type="email" placeholder="first_last@email.com" class="form-entry" required />
             </div>
             <div class="form-group">
-                <label id="number-label" for="number">Number</label>
-                <input id="number" type="number" placeholder="enter number" min="1" max="99" />
+                <label id="number-label" for="number">6-Digit Customer ID#</label>
+                <input id="number" type="number" class="form-entry" placeholder="123456" min="100000" max="999999" />
             </div>
             <div class="form-group">
-                <select id="dropdown">
-                    <option value=a>a</option>
-                    <option value=b>b</option>
+                <label>How did you hear about us?</label>
+                <select id="dropdown" class="dropdown" required>
+                    <option value="blank">Please Select</option>
+                    <option value="social-media">Social Media</option>
+                    <option value="tv-ad">TV Advertisement</option>
+                    <option value="radio-ad">Radio Advertisement</option>
+                    <option value="search-engine">Search Engine</option>
+                    <option value="word-of-mouth">Word of Mouth</option>
+                    <option value="other">Other</option>
                 </select>
             </div>
             <div class="form-group">
-                <input name="radio-buttons" value="red" type="radio" class="radio-selection" />
-                <input name="radio-buttons" value="blue" type="radio" class="radio-selection" />
+                <label>How would you rate your experience with us?</label>
+                <p>
+                    <input name="radio-buttons" value="7" type="radio" class="radio-selection" />Extremely Satisfied
+                </p>
+                <p><input name="radio-buttons" value="6" type="radio" class="radio-selection" />Satisfied</p>
+                <input name="radio-buttons" value="5" type="radio" class="radio-selection" />Somewhat Satisfied</p>
+                <p>
+                    <input name="radio-buttons" value="4" type="radio" class="radio-selection" />Neither Satisfied nor
+                    Dissatisfied
+                </p>
+                <p>
+                    <input name="radio-buttons" value="3" type="radio" class="radio-selection" />Somewhat Dissatisfied
+                </p>
+                <p>
+                    <input name="radio-buttons" value="2" type="radio" class="radio-selection" />Dissatisfied
+                </p>
+                <p>
+                    <input name="radio-buttons" value="1" type="radio" class="radio-selection" />Extremely Dissatisfied
+                </p>
+
             </div>
             <div class="form-group">
-                <input name="checkboxes" value="this one" type="checkbox" class="check-selection" />
-                <input name="checkboxes" value="that one" type="checkbox" class="check-selection" />
+                <label>Would you like to opt-in to any of our mailing lists?</label>
+                <p>
+                    <input name="checkboxes" value="Newsletter" type="checkbox" class="check-selection" />Weekly
+                    Newsletter
+                </p>
+                <p>
+                    <input name="checkboxes" value="sales" type="checkbox" class="check-selection" />Sales & Promotions
+                </p>
+                <p>
+                    <input name="checkboxes" value="releases" type="checkbox" class="check-selection" />New Product
+                    Releases
+                </p>
+                <p>
+                    <input name="checkboxes" value="events" type="checkbox" class="check-selection" />Events & More
+                </p>
             </div>
             <div class="form-group">
-                <textarea class="textbox"></textarea>
+                <label>If you have any additional feedback, please let us know:</label>
+                <textarea class="textbox" placeholder="Enter additional comments here..."></textarea>
             </div>
             <div class="form-group">
                 <button type="submit" id="submit" class="submit-button">Submit</button>
