@@ -27,6 +27,19 @@ h1 {
   text-align: center;
 }
 
+#description {
+  text-align: center;
+}
+
+li {
+  list-style: none;
+}
+
+#pricing {
+  display: flex;
+  justify-content: space-evenly;
+}
+
 @media (max-width < max-height) {
   /* mobile layout */
 }
