@@ -7,19 +7,18 @@ body {
   top: 0px;
   min-height: 80px;
   width: 100%;
-  background: white;
+  background: hsl(0 0% 90%);
   display: flex;
-  justify-content: space-evenly;
+  justify-content: space-between;
   flex-direction: row;
 }
 
-.logo {
-  height: 80px;
+.nav-link {
+  margin-right: 10%;
 }
 
-h1 {
-  font-family: "Arial", sans-serif;
-  font-weight: 1;
+.logo {
+  max-width: 30%;
 }
 
 #container {
@@ -27,8 +26,15 @@ h1 {
   text-align: center;
 }
 
+#video {
+  min-width: 640px;
+  min-height: 360px;
+}
+
 #description {
   text-align: center;
+  margin-left: 10%;
+  margin-right: 10%;
 }
 
 li {
@@ -38,8 +44,19 @@ li {
 #pricing {
   display: flex;
   justify-content: space-evenly;
+  text-align: center;
+}
+
+.price {
+  height: 200px;
+  width: 200px;
+  background: hsl(0 0% 95%);
+  border: 1px solid black; 
 }
 
 @media (max-width < max-height) {
   /* mobile layout */
+  #pricing {
+    flex-direction: column;
+  }
 }
