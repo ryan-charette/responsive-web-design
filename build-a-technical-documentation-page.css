@@ -1,0 +1,46 @@
+main {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-rows: 1fr 1fr 1fr 1fr 1fr;
+    grid-template-areas:
+        "navbar content1 content1"
+        "navbar content2 content2"
+        "navbar content3 content3"
+        "navbar content4 content4"
+        "navbar content5 content5";
+}
+
+#Topic_1 {
+    grid-area: content1;
+}
+
+#Topic_2 {
+    grid-area: content2;
+}
+
+#Topic_3 {
+    grid-area: content3;
+}
+
+#Topic_4 {
+    grid-area: content4;
+}
+
+#Topic_5 {
+    grid-area: content5;
+}
+
+#navbar {
+    grid-area: navbar;
+}
+
+@media (max-width: 1000px) {
+    main {
+        grid-template-areas:
+            "content1 content1 content1"
+            "content2 content2 content2"
+            "content3 content3 content3"
+            "content4 content4 content4"
+            "content5 content5 content5";
+    }
+}
