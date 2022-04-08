@@ -1,4 +1,4 @@
-#sally-ride-webpage
+# sally-ride-webpage
 "Build a Tribute Page" project from freeCodeCamp's Responsive Web Design certificate.
 The goal is to make a webpage using HTML and CSS that fulfills the following user stories.
 
