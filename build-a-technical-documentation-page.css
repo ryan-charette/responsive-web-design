@@ -1,32 +1,32 @@
 main {
     display: grid;
-    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-columns: 1fr 3fr 1fr;
     grid-template-rows: 1fr 1fr 1fr 1fr 1fr;
     grid-template-areas:
-        "navbar content1 content1"
-        "navbar content2 content2"
-        "navbar content3 content3"
-        "navbar content4 content4"
-        "navbar content5 content5";
+        "navbar content1 margin"
+        "navbar content2 margin"
+        "navbar content3 margin"
+        "navbar content4 margin"
+        "navbar content5 margin";
 }
 
-#Topic_1 {
+#Hello_World {
     grid-area: content1;
 }
 
-#Topic_2 {
+#Variables_and_Data_Types {
     grid-area: content2;
 }
 
-#Topic_3 {
+#Conditionals {
     grid-area: content3;
 }
 
-#Topic_4 {
+#Loops {
     grid-area: content4;
 }
 
-#Topic_5 {
+#Putting_it_all_Together {
     grid-area: content5;
 }
 
