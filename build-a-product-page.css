@@ -19,6 +19,13 @@ body {
   z-index: 2;
 }
 
+#header-img {
+  visibility: hidden;
+  height: 0;
+  width: 0;
+  /* .logo is being used to create a logo rather than importing an image */
+}
+
 .logo {
   margin: 1.5vw;
   margin-bottom: 1.75vw;
