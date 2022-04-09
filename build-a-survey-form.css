@@ -5,8 +5,8 @@
     right: 0;
     bottom: 0;
     left: 0;
-    width: 100%;
-    height: 30%;
+    width: 100vw;
+    height: 30vh;
     z-index: -1;
     background-color: hsl(225 75% 25%);
     border-radius: 0px;
@@ -14,11 +14,12 @@
 }
 
 body {
-    font-family: Garamond, serif;
+    font-family: 'Gill Sans', 'Gill Sans MT', 'Trebuchet MS', sans-serif;
     margin: 0;
 }
 
 .header {
+    font-family: Georgia, Times, 'Times New Roman', serif;
     padding: 5%;
     padding-bottom: 0;
 }
@@ -44,7 +45,7 @@ label {
 select {
     border-radius: 5px;
     padding: 1%;
-
+    background: white;
 }
 
 .form-entry {
@@ -67,13 +68,13 @@ form {
 }
 
 .textbox {
+    font-family: 'Gill Sans', 'Gill Sans MT', 'Trebuchet MS', sans-serif;
     height: 75px;
     width: 50%;
 }
 
 .submit-button {
     border-radius: 5px;
-    font-family: "Garamond", serif;
     font-size: 16px;
     padding: .75%;
     width: 10%;
@@ -83,8 +84,5 @@ form {
 }
 
 .submit-button:hover {
-    font-size: 17px;
-    padding: .85%;
-    width: 11%;
     background: hsl(225 75% 45%);
 }
