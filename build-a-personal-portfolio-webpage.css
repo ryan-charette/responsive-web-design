@@ -1,0 +1,15 @@
+#welcome-section {
+    height: 100vh;
+  }
+  
+  #navbar {
+    position: fixed;
+    top: 0px;
+  }
+  
+  @media (max-width: 1000px) {
+    #navbar {
+    visibility: hidden;
+    }
+  }
+  
