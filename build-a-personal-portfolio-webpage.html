@@ -2,24 +2,56 @@
 <html>
 
 <head>
-    <link rel="stylesheet" href="build-a-technical-documentation-page.css">
+    <link rel="stylesheet" href="build-a-personal-portfolio-webpage.css">
+    <link rel="icon" href="Tribute Page.png">
+    <link rel="icon" href="Survey Page.png">
+    <link rel="icon" href="Product Page.png">
+    <link rel="icon" href="Technical Page.png">
 </head>
 
 <body>
     <main>
         <navbar id="navbar">
-            <a href=#projects>Projects</a>
+            <a id="navlink" href=#welcome-section>Home</a>
+            <a id="navlink" href=#projects>Portfolio</a>
+            <a id="navlink" href=#profile-link>Contact</a>
+            <div id="spacer"></div>
         </navbar>
         <section id="welcome-section">
             <h1>Welcome</h1>
+            <p>Ryan Charette, Developer</p>
         </section>
+        <h2>Selected Works</h2>
         <section id="projects">
-            <a class="project-tile" href="https://codepen.io/ryan-charette/pen/ZEvJVqw">Tribute Page</a>
-            <a class="project-tile" href="https://codepen.io/ryan-charette/pen/LYezyXL">Survey Page</a>
-            <a class="project-tile" href="https://codepen.io/ryan-charette/pen/qBpVZVZ">Product Landing Page</a>
-            <a class="project-tile" href="https://codepen.io/ryan-charette/pen/KKZQorj">Technical Documentation Page</a>
+            <div id="tribute" class="card">
+                <img id="tribute-img" class="project-img" src="Tribute Page.png">
+                <a class="project-tile" href="https://codepen.io/ryan-charette/pen/ZEvJVqw">Tribute Page</a>
+            </div>
+            <div id="survey" class="card">
+                <img id="survey-img" class="project-img" src="Survey Page.png">
+                <a class="project-tile" href="https://codepen.io/ryan-charette/pen/LYezyXL">Survey Page</a>
+            </div>
+            <div id="product" class="card">
+                <img id="product-img" class="project-img" src="Product Page.png">
+                <a class="project-tile" href="https://codepen.io/ryan-charette/pen/qBpVZVZ">Product Landing Page</a>
+            </div>
+            <div id="technical" class="card">
+                <img id="technical-img" class="project-img" src="Technical Page.png">
+                <a class="project-tile" href="https://codepen.io/ryan-charette/pen/KKZQorj">Technical Documentation
+                    Page</a>
+            </div>
         </section>
-        <a id="profile-link" href="https://github.com/ryan-charette" target="_blank">GitHub</a>
+        <section id="contact">
+            <h2>Contact Me</h2>
+            <p id="small-text">Business Inquiries Only</p>
+            <div id="contact-links">
+                <a id="profile-link" href="https://github.com/ryan-charette" target="_blank">GitHub</a>
+                <a href="https://www.linkedin.com/in/ryan-charette/" target="_blank">LinkedIn</a>
+                <a id="email" href="mailto:ryanacharette@gmail.com">Email</a>
+            </div>
+            <hr>
+            <p id="copyright">©2022 Created by Ryan Charette</p>
+        </section>
     </main>
 </body>
 
