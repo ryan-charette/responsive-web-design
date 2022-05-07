@@ -1,6 +1,3 @@
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
 # personal-portfolio-page
 "Build a Personal Portfolio Webpage" project from freeCodeCamp's Responsive Web Design certificate. The goal is to make a webpage using HTML and CSS that fulfills the following user stories.
 
@@ -25,7 +22,7 @@ User Story #9: My portfolio should have at least one media query.
 User Story #10: The height of the welcome section should be equal to the height of the viewport.
 
 User Story #11: The navbar should always be at the top of the viewport.
-=======
+
 # customer-survey-form
 "Build a Survey Form" project from freeCodeCamp's Responsive Web Design certificate. The goal is to make a webpage using HTML and CSS that fulfills the following user stories.
 
@@ -60,8 +57,7 @@ User Story #14: Inside the form element, I can select several fields from a seri
 User Story #15: Inside the form element, I am presented with a textarea at the end for additional comments.
 
 User Story #16: Inside the form element, I am presented with a button with id="submit" to submit all my inputs.
->>>>>>> 2335b844e96c61c0c7edc2e264d373f3d64e7f51
-=======
+
 # technical-documentation-page
 "Build a Technical Documentation Page" project from freeCodeCamp's Responsive Web Design certificate. The goal is to make a webpage using HTML and CSS that fulfills the following user stories.
 
@@ -94,8 +90,7 @@ User Story #13: When I click on a navbar element, the page should navigate to th
 User Story #14: On regular sized devices (laptops, desktops), the element with id="navbar" should be shown on the left side of the screen and should always be visible to the user.
 
 User Story #15: My Technical Documentation page should use at least one media query.
->>>>>>> 21a19a9abccc940b6e729e66a07d77e6bb7f3f3b
-=======
+
 # product-landing-page
 "Build a Product Landing Page" project from freeCodeCamp's Responsive Web Design certificate. The goal is to make a webpage using HTML and CSS that fulfills the following user stories.
 
@@ -128,4 +123,3 @@ User Story #13: The navbar should always be at the top of the viewport.
 User Story #14: My product landing page should have at least one media query.
 
 User Story #15: My product landing page should utilize CSS flexbox at least once.
->>>>>>> de4272a1f351abcb99b14fb2694f4345cbdf6810
