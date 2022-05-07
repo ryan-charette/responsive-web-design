@@ -1,0 +1,88 @@
+.bg-graphic {
+    position: absolute;
+    margin: 0;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    width: 100vw;
+    height: 30vh;
+    z-index: -1;
+    background-color: hsl(225 75% 25%);
+    border-radius: 0px;
+    box-shadow: 0px 90px 0px 10000px hsl(225 75% 95%);
+}
+
+body {
+    font-family: 'Gill Sans', 'Gill Sans MT', 'Trebuchet MS', sans-serif;
+    margin: 0;
+}
+
+.header {
+    font-family: Georgia, Times, 'Times New Roman', serif;
+    padding: 5%;
+    padding-bottom: 0;
+}
+
+.container {
+    background: white;
+    margin: 15%;
+    margin-top: 5%;
+    border-radius: 10px;
+    box-shadow: 10px 10px 25px rgba(0, 0, 0, .4);
+}
+
+.text-center {
+    text-align: center;
+}
+
+label {
+    display: flex;
+    font-size: 120%;
+    margin-bottom: 0.5%;
+}
+
+select {
+    border-radius: 5px;
+    padding: 1%;
+    background: white;
+}
+
+.form-entry {
+    border-top: 0px;
+    border-right: 0px;
+    border-left: 0px;
+    border-color: hsl(225 15% 60%);
+    border-width: 1px;
+    padding: 1%;
+    padding-bottom: .25%;
+    padding-left: .25%;
+}
+
+form {
+    padding: 3%
+}
+
+.form-group {
+    padding: 1%;
+}
+
+.textbox {
+    font-family: 'Gill Sans', 'Gill Sans MT', 'Trebuchet MS', sans-serif;
+    height: 75px;
+    width: 50%;
+}
+
+.submit-button {
+    border-radius: 5px;
+    font-size: 16px;
+    padding: .75%;
+    width: 10%;
+    color: white;
+    background: hsl(225 75% 25%);
+    cursor: pointer;
+}
+
+.submit-button:hover {
+    background: hsl(225 75% 45%);
+}
