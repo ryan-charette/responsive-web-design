@@ -1,0 +1,113 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <link rel="stylesheet" href="build-a-technical-documentation-page.css">
+</head>
+
+<body>
+    <div class="bg-graphic"></div>
+    <main id="main-doc">
+        <section id="Hello_World" class="main-section">
+            <header id="topic1">Hello World</header>
+            <p>Java is one of the world's most popular programming languages. It was released in 1995 to serve as a
+                programming language that would run code consistently on any machine.</p>
+            <p>Java is an object-oriented programming language. An object is an individual instance of a class, which is
+                a section of code that defines the structure of objects. In Java, your code will not compile unless it
+                is a part of a class. For example, the following code would not run:</p>
+            <code>System.out.print("Hello World");</code>
+            <p>In order to get this code to run, we have to put it in a class that contains a main method. The main
+                method tells Java where to start running your code. Most of the time, your code will also be inside of a
+                package, which defines where your code is saved on your computer, but it is not necessary for your code
+                to compile. The following is what a complete .java file might look like for a "Hello World" program.</p>
+            <code>
+            package helloWorld;<br>
+            <br>
+              public class HelloWorld {<br>
+            <br>
+                public static void main(String[] args) {<br>
+            //this is the main method <br>
+                  System.out.print("Hello World");<br>
+          }<br>
+            }
+          </code>
+        </section>
+        <section id="Variables_and_Data_Types" class="main-section">
+            <header id="topic2">Variables and Data Types</header>
+            <p>Here are 5 basic data types in Java</p>
+            <ul>
+                <li>Integers</li>
+                <li>Floats and Doubles</li>
+                <li>Characters</li>
+                <li>Strings</li>
+                <li>Booleans</li>
+            </ul>
+            <p>Integers are whole numbers. Some examples include 13, 0, -1, 7, and 903.</p>
+            <p>Floats and doubles are numbers with decimals. Doubles can store numbers that are twice as long as floats,
+                so use doubles if you anticipate using large numbers or need a high degree of precision. Some examples
+                include 2.71828, 1.00, 39.99, -17.3019, and 0.0.</p>
+            <p>Characters are single characters. Examples include a, z, 1, #, and 字.</p>
+            <p>Strings contain one or more characters. Examples include abc, hello world, p@55w0rd, z, and 123.
+            <p>
+            <p>Booleans are a special data type that are always only ever True or False</p>
+            Here are some ways to declare, initialize, and use variables.</p>
+            <code>
+            int x = 0; <br>
+          boolean coinToss; <br>
+          double half; <br>
+            half = x / 4; <br>
+            char favLetter = 's'
+            String zipCode = "10001"; <br>
+          </code>
+        </section>
+        <section id="Conditionals" class="main-section">
+            <header id="topic3">Conditionals</header>
+            <p>Conditionals are code that only run when certain conditions are met.</p>
+            <code>
+            if (coinToss == True) {<br>
+            System.out.print("Heads");<br>
+            }<br>
+            else {<br>
+            System.out.print("Tails");<br>
+            }
+          </code>
+        </section>
+        <section id="Loops" class="main-section">
+            <header id="topic4">Loops</header>
+            <p>Loops are sections of code that run repeatedly until a condition is broken.</p>
+            <p>There are two types of loops: while loops and for loops. While loops are generally used when the number
+                of times the loop will repeat is unpredictable, otherwise for loops are preferred.</p>
+            <p>The following code shows how to use either type of loop to calculate a factorial.</p>
+                <code>
+            int factorial = 1; <br>
+            int x = 10; <br>
+            while (x > 1) { <br>
+            factorial = factorial * x; <br>
+            x = x - 1; <br>
+            }<br>
+            <br>
+            for (int x = 10; x > 1; x = x - 1) {<br>
+            factorial = factorial * x; <br>
+                                   }
+          </code>
+            <p>Note that the variables are declared outside of the while loop but inside the for loop. Because of this,
+                when using a for loop, the variables will not be accessible outside of the loop.</p>
+        </section>
+        <section id="Putting_it_all_Together" class="main-section">
+            <header id="topic5">Putting it all Together</header>
+            <p>Now you should be familiar with the basics of programming with Java. While the syntax may vary from
+                language to language, these basic principles should hold true across most programming languages. Good
+                luck and happy coding!</p>
+        </section>
+        <nav id="navbar">
+            <header>Intro to Java</header>
+            <a class="nav-link" href="#Hello_World">Hello World</a>
+            <a class="nav-link" href="#Variables_and_Data_Types">Variables and Data Types</a>
+            <a class="nav-link" href="#Conditionals">Conditionals</a>
+            <a class="nav-link" href="#Loops">Loops</a>
+            <a class="nav-link" href="#Putting_it_all_Together">Putting it all Together</a>
+        </nav>
+    </main>
+</body>
+
+</html>
