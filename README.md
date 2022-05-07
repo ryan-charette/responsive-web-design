@@ -1,33 +1,26 @@
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-# personal-portfolio-page
-"Build a Personal Portfolio Webpage" project from freeCodeCamp's Responsive Web Design certificate. The goal is to make a webpage using HTML and CSS that fulfills the following user stories.
+# tribute-page
+"Build a Tribute Page" project from freeCodeCamp's Responsive Web Design certificate.
+The goal is to make a webpage using HTML and CSS that fulfills the following user stories.
 
-User Story #1: My portfolio should have a welcome section with an id of welcome-section.
+User Story #1: My tribute page should have an element with a corresponding id="main", which contains all other elements.
 
-User Story #2: The welcome section should have an h1 element that contains text.
+User Story #2: I should see an element with a corresponding id="title", which contains a string (i.e. text) that describes the subject of the tribute page (e.g. "Dr. Norman Borlaug").
 
-User Story #3: My portfolio should have a projects section with an id of projects.
+User Story #3: I should see either a figure or a div element with a corresponding id="img-div".
 
-User Story #4: The projects section should contain at least one element with a class of project-tile to hold a project.
+User Story #4: Within the img-div element, I should see an img element with a corresponding id="image".
 
-User Story #5: The projects section should contain at least one link to a project.
+User Story #5: Within the img-div element, I should see an element with a corresponding id="img-caption" that contains textual content describing the image shown in img-div.
 
-User Story #6: My portfolio should have a navbar with an id of navbar.
+User Story #6: I should see an element with a corresponding id="tribute-info", which contains textual content describing the subject of the tribute page.
 
-User Story #7: The navbar should contain at least one link that I can click on to navigate to different sections of the page.
+User Story #7: I should see an a element with a corresponding id="tribute-link", which links to an outside site that contains additional information about the subject of the tribute page. HINT: You must give your element an attribute of target and set it to \_blank in order for your link to open in a new tab (i.e. target=\_"blank").
 
-User Story #8: My portfolio should have a link with an id of profile-link, which opens my GitHub or FCC profile in a new tab.
+User Story #8: The img element should responsively resize, relative to the width of its parent element, without exceeding its original size.
 
-User Story #9: My portfolio should have at least one media query.
+User Story #9: The img element should be centered within its parent element.
 
-User Story #10: The height of the welcome section should be equal to the height of the viewport.
-
-User Story #11: The navbar should always be at the top of the viewport.
-=======
-# customer-survey-form
+# survey-form
 "Build a Survey Form" project from freeCodeCamp's Responsive Web Design certificate. The goal is to make a webpage using HTML and CSS that fulfills the following user stories.
 
 User Story #1: I can see a title with id="title" in H1 sized text.
@@ -61,42 +54,7 @@ User Story #14: Inside the form element, I can select several fields from a seri
 User Story #15: Inside the form element, I am presented with a textarea at the end for additional comments.
 
 User Story #16: Inside the form element, I am presented with a button with id="submit" to submit all my inputs.
->>>>>>> 2335b844e96c61c0c7edc2e264d373f3d64e7f51
-=======
-# technical-documentation-page
-"Build a Technical Documentation Page" project from freeCodeCamp's Responsive Web Design certificate. The goal is to make a webpage using HTML and CSS that fulfills the following user stories.
 
-User Story #1: I can see a main element with a corresponding id="main-doc", which contains the page's main content (technical documentation).
-
-User Story #2: Within the #main-doc element, I can see several section elements, each with a class of main-section. There should be a minimum of 5.
-
-User Story #3: The first element within each .main-section should be a header element which contains text that describes the topic of that section.
-
-User Story #4: Each section element with the class of main-section should also have an id that corresponds with the text of each header contained within it. Any spaces should be replaced with underscores (e.g. The section that contains the header "JavaScript and Java" should have a corresponding id="JavaScript_and_Java").
-
-User Story #5: The .main-section elements should contain at least 10 p elements total (not each).
-
-User Story #6: The .main-section elements should contain at least 5 code elements total (not each).
-
-User Story #7: The .main-section elements should contain at least 5 li items total (not each).
-
-User Story #8: I can see a nav element with a corresponding id="navbar".
-
-User Story #9: The navbar element should contain one header element which contains text that describes the topic of the technical documentation.
-
-User Story #10: Additionally, the navbar should contain link (a) elements with the class of nav-link. There should be one for every element with the class main-section.
-
-User Story #11: The header element in the navbar must come before any link (a) elements in the navbar.
-
-User Story #12: Each element with the class of nav-link should contain text that corresponds to the header text within each section (e.g. if you have a "Hello world" section/header, your navbar should have an element which contains the text "Hello world").
-
-User Story #13: When I click on a navbar element, the page should navigate to the corresponding section of the main-doc element (e.g. If I click on a nav-link element that contains the text "Hello world", the page navigates to a section element that has that id and contains the corresponding header.
-
-User Story #14: On regular sized devices (laptops, desktops), the element with id="navbar" should be shown on the left side of the screen and should always be visible to the user.
-
-User Story #15: My Technical Documentation page should use at least one media query.
->>>>>>> 21a19a9abccc940b6e729e66a07d77e6bb7f3f3b
-=======
 # product-landing-page
 "Build a Product Landing Page" project from freeCodeCamp's Responsive Web Design certificate. The goal is to make a webpage using HTML and CSS that fulfills the following user stories.
 
@@ -129,27 +87,61 @@ User Story #13: The navbar should always be at the top of the viewport.
 User Story #14: My product landing page should have at least one media query.
 
 User Story #15: My product landing page should utilize CSS flexbox at least once.
->>>>>>> de4272a1f351abcb99b14fb2694f4345cbdf6810
-=======
-# sally-ride-webpage
-"Build a Tribute Page" project from freeCodeCamp's Responsive Web Design certificate.
-The goal is to make a webpage using HTML and CSS that fulfills the following user stories.
 
-User Story #1: My tribute page should have an element with a corresponding id="main", which contains all other elements.
+# technical-documentation-page
+"Build a Technical Documentation Page" project from freeCodeCamp's Responsive Web Design certificate. The goal is to make a webpage using HTML and CSS that fulfills the following user stories.
 
-User Story #2: I should see an element with a corresponding id="title", which contains a string (i.e. text) that describes the subject of the tribute page (e.g. "Dr. Norman Borlaug").
+User Story #1: I can see a main element with a corresponding id="main-doc", which contains the page's main content (technical documentation).
 
-User Story #3: I should see either a figure or a div element with a corresponding id="img-div".
+User Story #2: Within the #main-doc element, I can see several section elements, each with a class of main-section. There should be a minimum of 5.
 
-User Story #4: Within the img-div element, I should see an img element with a corresponding id="image".
+User Story #3: The first element within each .main-section should be a header element which contains text that describes the topic of that section.
 
-User Story #5: Within the img-div element, I should see an element with a corresponding id="img-caption" that contains textual content describing the image shown in img-div.
+User Story #4: Each section element with the class of main-section should also have an id that corresponds with the text of each header contained within it. Any spaces should be replaced with underscores (e.g. The section that contains the header "JavaScript and Java" should have a corresponding id="JavaScript_and_Java").
 
-User Story #6: I should see an element with a corresponding id="tribute-info", which contains textual content describing the subject of the tribute page.
+User Story #5: The .main-section elements should contain at least 10 p elements total (not each).
 
-User Story #7: I should see an a element with a corresponding id="tribute-link", which links to an outside site that contains additional information about the subject of the tribute page. HINT: You must give your element an attribute of target and set it to \_blank in order for your link to open in a new tab (i.e. target=\_"blank").
+User Story #6: The .main-section elements should contain at least 5 code elements total (not each).
 
-User Story #8: The img element should responsively resize, relative to the width of its parent element, without exceeding its original size.
+User Story #7: The .main-section elements should contain at least 5 li items total (not each).
 
-User Story #9: The img element should be centered within its parent element.
->>>>>>> a744ecec8e51729ffb90c641888d8e393f796361
+User Story #8: I can see a nav element with a corresponding id="navbar".
+
+User Story #9: The navbar element should contain one header element which contains text that describes the topic of the technical documentation.
+
+User Story #10: Additionally, the navbar should contain link (a) elements with the class of nav-link. There should be one for every element with the class main-section.
+
+User Story #11: The header element in the navbar must come before any link (a) elements in the navbar.
+
+User Story #12: Each element with the class of nav-link should contain text that corresponds to the header text within each section (e.g. if you have a "Hello world" section/header, your navbar should have an element which contains the text "Hello world").
+
+User Story #13: When I click on a navbar element, the page should navigate to the corresponding section of the main-doc element (e.g. If I click on a nav-link element that contains the text "Hello world", the page navigates to a section element that has that id and contains the corresponding header.
+
+User Story #14: On regular sized devices (laptops, desktops), the element with id="navbar" should be shown on the left side of the screen and should always be visible to the user.
+
+User Story #15: My Technical Documentation page should use at least one media query.
+
+# personal-portfolio-webpage
+"Build a Personal Portfolio Webpage" project from freeCodeCamp's Responsive Web Design certificate. The goal is to make a webpage using HTML and CSS that fulfills the following user stories.
+
+User Story #1: My portfolio should have a welcome section with an id of welcome-section.
+
+User Story #2: The welcome section should have an h1 element that contains text.
+
+User Story #3: My portfolio should have a projects section with an id of projects.
+
+User Story #4: The projects section should contain at least one element with a class of project-tile to hold a project.
+
+User Story #5: The projects section should contain at least one link to a project.
+
+User Story #6: My portfolio should have a navbar with an id of navbar.
+
+User Story #7: The navbar should contain at least one link that I can click on to navigate to different sections of the page.
+
+User Story #8: My portfolio should have a link with an id of profile-link, which opens my GitHub or FCC profile in a new tab.
+
+User Story #9: My portfolio should have at least one media query.
+
+User Story #10: The height of the welcome section should be equal to the height of the viewport.
+
+User Story #11: The navbar should always be at the top of the viewport.
