@@ -1,29 +1,26 @@
-# personal-portfolio-page
-"Build a Personal Portfolio Webpage" project from freeCodeCamp's Responsive Web Design certificate. The goal is to make a webpage using HTML and CSS that fulfills the following user stories.
+# tribute-page
+"Build a Tribute Page" project from freeCodeCamp's Responsive Web Design certificate.
+The goal is to make a webpage using HTML and CSS that fulfills the following user stories.
 
-User Story #1: My portfolio should have a welcome section with an id of welcome-section.
+User Story #1: My tribute page should have an element with a corresponding id="main", which contains all other elements.
 
-User Story #2: The welcome section should have an h1 element that contains text.
+User Story #2: I should see an element with a corresponding id="title", which contains a string (i.e. text) that describes the subject of the tribute page (e.g. "Dr. Norman Borlaug").
 
-User Story #3: My portfolio should have a projects section with an id of projects.
+User Story #3: I should see either a figure or a div element with a corresponding id="img-div".
 
-User Story #4: The projects section should contain at least one element with a class of project-tile to hold a project.
+User Story #4: Within the img-div element, I should see an img element with a corresponding id="image".
 
-User Story #5: The projects section should contain at least one link to a project.
+User Story #5: Within the img-div element, I should see an element with a corresponding id="img-caption" that contains textual content describing the image shown in img-div.
 
-User Story #6: My portfolio should have a navbar with an id of navbar.
+User Story #6: I should see an element with a corresponding id="tribute-info", which contains textual content describing the subject of the tribute page.
 
-User Story #7: The navbar should contain at least one link that I can click on to navigate to different sections of the page.
+User Story #7: I should see an a element with a corresponding id="tribute-link", which links to an outside site that contains additional information about the subject of the tribute page. HINT: You must give your element an attribute of target and set it to \_blank in order for your link to open in a new tab (i.e. target=\_"blank").
 
-User Story #8: My portfolio should have a link with an id of profile-link, which opens my GitHub or FCC profile in a new tab.
+User Story #8: The img element should responsively resize, relative to the width of its parent element, without exceeding its original size.
 
-User Story #9: My portfolio should have at least one media query.
+User Story #9: The img element should be centered within its parent element.
 
-User Story #10: The height of the welcome section should be equal to the height of the viewport.
-
-User Story #11: The navbar should always be at the top of the viewport.
-
-# customer-survey-form
+# survey-form
 "Build a Survey Form" project from freeCodeCamp's Responsive Web Design certificate. The goal is to make a webpage using HTML and CSS that fulfills the following user stories.
 
 User Story #1: I can see a title with id="title" in H1 sized text.
@@ -58,6 +55,39 @@ User Story #15: Inside the form element, I am presented with a textarea at the e
 
 User Story #16: Inside the form element, I am presented with a button with id="submit" to submit all my inputs.
 
+# product-landing-page
+"Build a Product Landing Page" project from freeCodeCamp's Responsive Web Design certificate. The goal is to make a webpage using HTML and CSS that fulfills the following user stories.
+
+User Story #1: My product landing page should have a header element with a corresponding id="header".
+
+User Story #2: I can see an image within the header element with a corresponding id="header-img". A company logo would make a good image here.
+
+User Story #3: Within the #header element I can see a nav element with a corresponding id="nav-bar".
+
+User Story #4: I can see at least three clickable elements inside the nav element, each with the class nav-link.
+
+User Story #5: When I click a .nav-link button in the nav element, I am taken to the corresponding section of the landing page.
+
+User Story #6: I can watch an embedded product video with id="video".
+
+User Story #7: My landing page has a form element with a corresponding id="form".
+
+User Story #8: Within the form, there is an input field with id="email" where I can enter an email address.
+
+User Story #9: The #email input field should have placeholder text to let the user know what the field is for.
+
+User Story #10: The #email input field uses HTML5 validation to confirm that the entered text is an email address.
+
+User Story #11: Within the form, there is a submit input with a corresponding id="submit".
+
+User Story #12: When I click the #submit element, the email is submitted to a static page (use this mock URL: https://www.freecodecamp.com/email-submit).
+
+User Story #13: The navbar should always be at the top of the viewport.
+
+User Story #14: My product landing page should have at least one media query.
+
+User Story #15: My product landing page should utilize CSS flexbox at least once.
+
 # technical-documentation-page
 "Build a Technical Documentation Page" project from freeCodeCamp's Responsive Web Design certificate. The goal is to make a webpage using HTML and CSS that fulfills the following user stories.
 
@@ -91,35 +121,27 @@ User Story #14: On regular sized devices (laptops, desktops), the element with i
 
 User Story #15: My Technical Documentation page should use at least one media query.
 
-# product-landing-page
-"Build a Product Landing Page" project from freeCodeCamp's Responsive Web Design certificate. The goal is to make a webpage using HTML and CSS that fulfills the following user stories.
+# personal-portfolio-webpage
+"Build a Personal Portfolio Webpage" project from freeCodeCamp's Responsive Web Design certificate. The goal is to make a webpage using HTML and CSS that fulfills the following user stories.
 
-User Story #1: My product landing page should have a header element with a corresponding id="header".
+User Story #1: My portfolio should have a welcome section with an id of welcome-section.
 
-User Story #2: I can see an image within the header element with a corresponding id="header-img". A company logo would make a good image here.
+User Story #2: The welcome section should have an h1 element that contains text.
 
-User Story #3: Within the #header element I can see a nav element with a corresponding id="nav-bar".
+User Story #3: My portfolio should have a projects section with an id of projects.
 
-User Story #4: I can see at least three clickable elements inside the nav element, each with the class nav-link.
+User Story #4: The projects section should contain at least one element with a class of project-tile to hold a project.
 
-User Story #5: When I click a .nav-link button in the nav element, I am taken to the corresponding section of the landing page.
+User Story #5: The projects section should contain at least one link to a project.
 
-User Story #6: I can watch an embedded product video with id="video".
+User Story #6: My portfolio should have a navbar with an id of navbar.
 
-User Story #7: My landing page has a form element with a corresponding id="form".
+User Story #7: The navbar should contain at least one link that I can click on to navigate to different sections of the page.
 
-User Story #8: Within the form, there is an input field with id="email" where I can enter an email address.
+User Story #8: My portfolio should have a link with an id of profile-link, which opens my GitHub or FCC profile in a new tab.
 
-User Story #9: The #email input field should have placeholder text to let the user know what the field is for.
+User Story #9: My portfolio should have at least one media query.
 
-User Story #10: The #email input field uses HTML5 validation to confirm that the entered text is an email address.
+User Story #10: The height of the welcome section should be equal to the height of the viewport.
 
-User Story #11: Within the form, there is a submit input with a corresponding id="submit".
-
-User Story #12: When I click the #submit element, the email is submitted to a static page (use this mock URL: https://www.freecodecamp.com/email-submit).
-
-User Story #13: The navbar should always be at the top of the viewport.
-
-User Story #14: My product landing page should have at least one media query.
-
-User Story #15: My product landing page should utilize CSS flexbox at least once.
+User Story #11: The navbar should always be at the top of the viewport.
